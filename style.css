@@ -32,12 +32,23 @@ body {
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
+    
+}
+
+.button {
     background-color: rgba(128, 128, 128);
 }
 
-.calculator-grid > button:hover {
-    background-color: rgba(128, 128, 128, .90);
-    
+button.button:hover {
+    background-color: rgba(128, 128, 128, .90);   
+}
+
+.operands {
+    background-color: rgb(255, 162, 0);
+}
+
+button.operands:hover {
+    background-color: rgb(255, 162, 0, .90);
 }
 
 .span-two {
