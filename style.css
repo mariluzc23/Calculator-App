@@ -30,6 +30,7 @@ body {
 .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
+    font-color: white;
     border: 1px solid white;
     outline: none;
     
